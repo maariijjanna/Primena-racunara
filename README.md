@@ -1,2 +1,1 @@
-# novo-css
-css verzija proslog
+# Primena-racunara

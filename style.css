@@ -1,65 +1,178 @@
-p{
-    color:burlywood;
-}
-.body1{
-    background-color:beige;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    color:brown;
-    
-}
-.table2{
-font-size: 18px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: left;
-color:beige;
-background-color:burlywood;
+/* style.css */
 
+body {
+    background-color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4B2E83; /* tamnoljubičasta za tekst, lepo kontrastira */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centrira horizontalno */
+    text-align: center; /* tekst centriran */
 }
 
-.p1{
-    color:brown;
-    font-size: 19px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1, h2 {
+    color: #6A4C93; /* svetlija nijansa ljubičaste */
+    margin-bottom: 0.3em;
 }
 
-.table1{
-    font-size: 19px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1 {
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+a {
+    color: #1E90FF; /* svetlija ljubičasta */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color:  #104E8B;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #9B59B6;
+    margin: 2em 0;
+}
+
+table {
+    margin: 1em auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+table tr {
+    vertical-align: middle;
+}
+
+iframe, img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(75, 46, 131, 0.2);
+    display: block;
+    margin: 0 auto;
+}
+/* style.css */
+
+body {
+    background-color: lavender;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3A3A66;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    color:brown;
-}
-.body4{
-    background-color: darkred;
-}
-button{
-    font-size: 20px;
-    font-style:italic;
-    background-color: beige;
-    border-color: burlywood;
-
-}
-a{
-    color: brown;
-}
-p{
-    color: brown;
-}
-h1{
-    font-weight: bold;
-    font-style: italic;
-}
-div{
-    margin: 50px;
- padding: 20px;
- border-radius: 10px;
- margin-top: 30px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-}
-section{
-    margin-bottom: 30px;
-    padding: 15px;
-    border-left: 5px solid;
-    border-color: brown;
+    margin: 0;
+    padding: 2em;
 }
 
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #4B4B8A;
+}
+
+form {
+    background-color: #f9f9ff;
+    padding: 2em 3em;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(75, 75, 138, 0.3);
+    width: 90%;
+    max-width: 500px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5em;
+    color: #5A5A8A;
+    font-weight: 600;
+}
+
+ul li {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1.5em 0;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    font-weight: 600;
+    color: #4B4B8A;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5em 0.7em;
+    border: 1.5px solid #bbb;
+    border-radius: 6px;
+    font-size: 1em;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #4B4B8A;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 1.5em;
+    padding: 0.8em 2em;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #4B4B8A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #6A6ABF;
+}
+
+a {
+    display: inline-block;
+    margin-top: 1.5em;
+    color: #1E90FF; /* plava */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
